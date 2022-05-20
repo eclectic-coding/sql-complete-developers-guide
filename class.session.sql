@@ -1,0 +1,1 @@
+-- ALTER TABLE conversation RENAME TO conversations;
