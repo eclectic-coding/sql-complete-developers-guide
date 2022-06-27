@@ -1,27 +1,27 @@
 {
     "sqltools.connections": [
         {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 55432,
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "database": "relations",
+            "username": "webdev",
+            "password": "secret"
+        },
+        {
             "mysqlOptions": {
                 "authProtocol": "default"
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3306,
-            "driver": "MariaDB",
-            "username": "webrev",
-            "password": "ccs43300",
-            "name": "mysql1",
-            "database": "relations"
-        },
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "postgres1",
+            "port": 53306,
+            "driver": "MySQL",
+            "name": "mysql_docker",
             "database": "relations",
-            "username": "webrev",
-            "password": "ccs43300"
+            "username": "webdev",
+            "password": "secret"
         }
     ]
 }
